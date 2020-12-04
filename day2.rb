@@ -1,4 +1,4 @@
-data = File.open('input_day2.txt').readlines.map(&:chomp)
+data = File.open('day2_input.txt').readlines.map(&:chomp)
 @valid_count = 0
 def looper(line, type="range")
   rule, password = line.split(':')

@@ -1,4 +1,4 @@
-report = File.open("input_day1.txt").readlines.map{|line| line.chomp.to_i}
+report = File.open("day1_input.txt").readlines.map{|line| line.chomp.to_i}
 
 def expense_report(input, addends=3, target=2020)
   input.permutation(addends).each do |p|
